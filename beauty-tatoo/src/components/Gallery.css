@@ -1,0 +1,28 @@
+.gallery {
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+  gap: 20px; /* Расстояние между изображениями */
+}
+
+.gallery-images img {
+  width: 70%;
+  height: 80%; /* Растягивает изображение по высоте */
+  object-fit: cover; /* Сохраняет пропорции и обрезает изображение, чтобы заполнить блок */
+  border-radius: 8px; /* Опционально: добавляет скругление углов */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Опционально: добавляет тень */
+  transition: transform 0.3s ease; /* Плавная анимация */
+}
+
+.gallery-images img:hover {
+  transform: scale(1.05); /* Легкое увеличение при наведении */
+}

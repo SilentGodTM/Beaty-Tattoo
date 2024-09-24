@@ -1,0 +1,45 @@
+.features-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px 20px;
+  background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%); /* Плавный градиент от черного к выбранному фону */
+  text-align: center;
+  transition: background 0.5s ease-in-out; /* Плавный переход при изменении */
+}
+
+.feature {
+  width: 30%;
+  max-width: 300px;
+  margin: 50px;
+  padding: 20px;
+  background-color: rgba(200, 194, 194, 0.8); /* Полупрозрачный фон для карточек */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Нежная тень для карточек */
+  box-sizing: border-box;
+}
+
+.feature-icon {
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.feature-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: 'Lobster', cursive;
+}
+
+.feature-description {
+  font-size: 16px;
+  color: #000000;
+}
+
+/* Плавный переход к следующему блоку */
+.features-block + .gallery {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fffdfd;
+  border-top: 1px solid #e0e0e0;
+}
+

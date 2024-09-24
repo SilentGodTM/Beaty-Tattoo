@@ -1,0 +1,46 @@
+/* src/components/AdminLogin.css */
+.admin-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-login h2 {
+  margin-top: 0;
+}
+
+.admin-login form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-login label {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-login input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.admin-login button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.admin-login button:hover {
+  background: #0056b3;
+}
+  

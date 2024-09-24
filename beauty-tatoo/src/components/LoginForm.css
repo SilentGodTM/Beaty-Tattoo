@@ -1,0 +1,39 @@
+.login-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login-form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+  }
+  
+  .login-form-container button {
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+  
